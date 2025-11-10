@@ -1,0 +1,19 @@
+{
+  "parent": "blahaj:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
+    },
+    "title": "On Display",
+    "description": "Place a plushie in an item frame on the floor",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "placed_in_frame": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

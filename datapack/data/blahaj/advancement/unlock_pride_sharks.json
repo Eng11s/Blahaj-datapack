@@ -1,0 +1,37 @@
+{
+  "parent": "blahaj:root",
+  "criteria": {
+    "crafted_blue_shark": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "crafting:blue_shark"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "crafting:stonecutter_ace_shark",
+      "crafting:stonecutter_agender_shark",
+      "crafting:stonecutter_aro_shark",
+      "crafting:stonecutter_aroace_shark",
+      "crafting:stonecutter_bi_shark",
+      "crafting:stonecutter_demi_r_shark",
+      "crafting:stonecutter_demi_s_shark",
+      "crafting:stonecutter_demiboy_shark",
+      "crafting:stonecutter_demigirl_shark",
+      "crafting:stonecutter_enby_shark",
+      "crafting:stonecutter_gay_shark",
+      "crafting:stonecutter_genderfluid_shark",
+      "crafting:stonecutter_genderqueer_shark",
+      "crafting:stonecutter_gray_r_shark",
+      "crafting:stonecutter_gray_s_shark",
+      "crafting:stonecutter_grayrose_shark",
+      "crafting:stonecutter_intersex_shark",
+      "crafting:stonecutter_lesbian_shark",
+      "crafting:stonecutter_pan_shark",
+      "crafting:stonecutter_poly_shark",
+      "crafting:stonecutter_pride_shark",
+      "crafting:stonecutter_trans_shark"
+    ]
+  }
+}

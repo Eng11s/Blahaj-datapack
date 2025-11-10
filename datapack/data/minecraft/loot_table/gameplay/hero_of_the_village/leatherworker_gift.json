@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {"strings": [ "brown_bear" ] },
+                "minecraft:custom_name": { "text": "Brown Bear", "italic": false, "color": "white" },
+                "minecraft:lore": [
+                  { "text": "a.k.a. Djungelskog", "italic": false, "color": "gray" }
+                ],
+                "minecraft:custom_data": { "blahaj_stamp": 1 },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:block_break_speed",
+                    "amount": -3.0,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "id": "blahaj:zero_block_break_speed_main"
+                  },
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": -1.0,
+                    "operation": "add_multiplied_total",
+                    "slot": "mainhand",
+                    "id": "blahaj:zero_attack_damage_main",
+                    "display": { "type": "override", "value": { "text": "-100% Attack Damage", "italic": false, "color": "dark_green" }}
+                  }
+                ],
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:block.wool.step",
+                  "swappable": false
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/leatherworker_gift"
+}

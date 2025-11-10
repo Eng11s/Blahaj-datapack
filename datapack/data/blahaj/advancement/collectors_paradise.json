@@ -1,0 +1,213 @@
+{
+  "parent": "blahaj:ocean_family",
+  "display": {
+    "icon": {
+      "id": "minecraft:feather",
+      "components": {"minecraft:custom_model_data": {"strings": ["pride_shark"]}}
+    },
+    "title": "Collector's Paradise",
+    "description": "Obtain one of every plushie (sharks, bear, bread, whale, and at least one pride variant)",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_blue_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["blue_shark"]}}}]
+      }
+    },
+    "has_gray_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["gray_shark"]}}}]
+      }
+    },
+    "has_whale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["blue_whale"]}}}]
+      }
+    },
+    "has_bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["bread_pillow"]}}}]
+      }
+    },
+    "has_brown_bear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["brown_bear"]}}}]
+      }
+    },
+    "has_ace_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["ace_shark"]}}}]
+      }
+    },
+    "has_agender_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["agender_shark"]}}}]
+      }
+    },
+    "has_aro_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["aro_shark"]}}}]
+      }
+    },
+    "has_aroace_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["aroace_shark"]}}}]
+      }
+    },
+    "has_bi_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["bi_shark"]}}}]
+      }
+    },
+    "has_demi_r_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["demi_r_shark"]}}}]
+      }
+    },
+    "has_demi_s_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["demi_s_shark"]}}}]
+      }
+    },
+    "has_demiboy_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["demiboy_shark"]}}}]
+      }
+    },
+    "has_demigirl_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["demigirl_shark"]}}}]
+      }
+    },
+    "has_enby_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["enby_shark"]}}}]
+      }
+    },
+    "has_gay_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["gay_shark"]}}}]
+      }
+    },
+    "has_genderfluid_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["genderfluid_shark"]}}}]
+      }
+    },
+    "has_genderqueer_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["genderqueer_shark"]}}}]
+      }
+    },
+    "has_gray_r_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["gray_r_shark"]}}}]
+      }
+    },
+    "has_gray_s_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["gray_s_shark"]}}}]
+      }
+    },
+    "has_grayrose_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["grayrose_shark"]}}}]
+      }
+    },
+    "has_intersex_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["intersex_shark"]}}}]
+      }
+    },
+    "has_lesbian_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["lesbian_shark"]}}}]
+      }
+    },
+    "has_pan_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["pan_shark"]}}}]
+      }
+    },
+    "has_poly_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["poly_shark"]}}}]
+      }
+    },
+    "has_pride_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["pride_shark"]}}}]
+      }
+    },
+    "has_trans_shark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": "minecraft:feather", "components": {"minecraft:custom_model_data": {"strings": ["trans_shark"]}}}]
+      }
+    }
+  },
+  "requirements": [
+    ["has_blue_shark"],
+    ["has_gray_shark"],
+    ["has_whale"],
+    ["has_bread"],
+    ["has_brown_bear"],
+    [
+      "has_ace_shark",
+      "has_agender_shark",
+      "has_aro_shark",
+      "has_aroace_shark",
+      "has_bi_shark",
+      "has_demi_r_shark",
+      "has_demi_s_shark",
+      "has_demiboy_shark",
+      "has_demigirl_shark",
+      "has_enby_shark",
+      "has_gay_shark",
+      "has_genderfluid_shark",
+      "has_genderqueer_shark",
+      "has_gray_r_shark",
+      "has_gray_s_shark",
+      "has_grayrose_shark",
+      "has_intersex_shark",
+      "has_lesbian_shark",
+      "has_pan_shark",
+      "has_poly_shark",
+      "has_pride_shark",
+      "has_trans_shark"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

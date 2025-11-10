@@ -1,0 +1,1 @@
+$execute as @e[type=item,tag=blahaj_picked_up,distance=..3] at @s run tp @s @p[nbt={UUID:$(player)}]

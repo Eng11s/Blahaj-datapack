@@ -1,0 +1,18 @@
+{
+  "parent": "blahaj:root",
+  "criteria": {
+    "has_blue_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:blue_wool"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["crafting:blue_whale"]
+  }
+}

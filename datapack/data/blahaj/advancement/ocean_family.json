@@ -1,0 +1,56 @@
+{
+    "parent": "blahaj:root",
+    "display": {
+      "icon": {
+        "id": "minecraft:feather",
+        "components": {"minecraft:custom_model_data": {"strings": ["gray_shark"]}}
+      },
+      "title": "Ocean Family",
+      "description": "Craft two basic shark variants and one whale",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "has_blue_shark": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:feather",
+              "components": {
+                "minecraft:custom_model_data": {"strings": ["blue_shark"]}
+              }
+            }
+          ]
+        }
+      },
+      "has_gray_shark": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:feather",
+              "components": {
+                "minecraft:custom_model_data": {"strings": ["gray_shark"]}
+              }
+            }
+          ]
+        }
+      },
+      "has_whale": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:feather",
+              "components": {
+                "minecraft:custom_model_data": {"strings": ["blue_whale"]}
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

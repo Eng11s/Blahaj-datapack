@@ -1,0 +1,18 @@
+{
+  "parent": "blahaj:root",
+  "criteria": {
+    "has_light_gray_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:light_gray_wool"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["crafting:gray_shark"]
+  }
+}

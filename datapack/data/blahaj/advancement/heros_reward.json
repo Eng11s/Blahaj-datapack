@@ -1,0 +1,30 @@
+{
+    "parent": "blahaj:root",
+    "display": {
+      "icon": {
+        "id": "minecraft:feather",
+        "components": {"minecraft:custom_model_data": {"strings": ["brown_bear"]}}
+      },
+      "title": "Hero's Reward",
+      "description": "Receive a brown bear from a grateful villager",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "has_brown_bear": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:feather",
+              "components": {
+                "minecraft:custom_model_data": {"strings": ["brown_bear"]}
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

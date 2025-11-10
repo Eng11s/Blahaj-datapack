@@ -1,0 +1,43 @@
+{
+    "parent": "blahaj:on_display",
+    "display": {
+      "icon": {
+        "id": "minecraft:feather",
+        "components": {"minecraft:custom_model_data": {"strings": ["blue_shark"]}}
+      },
+      "title": "Cleanup Time",
+      "description": "Pick up a placed plushie while sneaking",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "picked_up": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sneaking": true
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "items": "minecraft:feather",
+              "components": {
+                "minecraft:custom_data": {
+                  "blahaj_stamp": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

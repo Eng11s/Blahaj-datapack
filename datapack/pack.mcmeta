@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 88,
+    "min_format": 88,
+    "max_format": 88,
+    "description": [
+      {
+        "text": "IKEA plushies restuffed for vanilla Minecraft",
+        "color": "gold"
+      },
+      {
+        "text": "\nNow as a datapack!",
+        "color": "light_purple"
+      }
+    ]
+  }
+}

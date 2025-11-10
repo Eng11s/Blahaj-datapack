@@ -1,0 +1,30 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:feather",
+		"components": {"minecraft:custom_model_data": {"strings": ["blue_shark"]}}
+	  },
+	  "title": "Best friends",
+	  "description": "Craft or obtain a plushie",
+	  "background": "minecraft:block/light_blue_wool",
+	  "show_toast": true,
+	  "announce_to_chat": false
+	},
+	"criteria": {
+	  "has_plushie": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": "minecraft:feather",
+			  "components": {
+				"minecraft:custom_data": {
+				  "blahaj_stamp": 1
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	}
+  }

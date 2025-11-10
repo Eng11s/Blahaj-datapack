@@ -1,0 +1,18 @@
+{
+  "parent": "blahaj:root",
+  "criteria": {
+    "has_orange_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:orange_wool"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["crafting:bread_pillow"]
+  }
+}
